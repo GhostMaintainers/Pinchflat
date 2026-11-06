@@ -1,0 +1,35 @@
+name: Test
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up BEAM
+        uses: erlef/setup-beam@v1
+        with:
+          otp-version: 25
+          elixir-version: v1.17-otp-25
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+
+      - name: Fetch SQLean extensions
+        run: ./tooling/fetch-sqlean.sh
+
+      - name: Create and Migrate database
+        run: |
+          mix ecto.create
+          mix ecto.migrate
+
+      - name: Run code checks
+        run: mix check --no-fix --no-retry
