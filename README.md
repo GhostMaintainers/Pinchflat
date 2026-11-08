@@ -1,9 +1,11 @@
 > [!CAUTION]
-> The head repo for Pinchflat (fork) has been pulled for unknown reasons. Unless development comes this way or I find the time to learn and update it, this project will remain stale. Sorry, I am not a dev and am still learning how to code.
+> This is a GhostMaintainer's archive of the community-maintained fork of [kieraneglin/pinchflat](https://github.com/kieraneglin/pinchflat). The head repo for community-maintained's fork of [Pinchflat](https://github.com/kieraneglin/pinchflat) has been pulled for unknown reasons. Unless development comes this way or I find the time to learn and update it, this project will remain stale. Sorry, I am not a dev and am still learning how to code.
 >
-> Only dependency updates and security fixes will be addressed in this fork. I am not interested in touching Pinchflat's codebase. For new features, bug fixes, and/or minor issues, please consider switching to [Pinchflat-NGX](https://github.com/TheBadFella/Pinchflat-NGX).
+> Only dependency updates and security fixes will be addressed in this fork. I am not interested in touching Tubeless's codebase. For new features, bug fixes, and/or minor issues, please consider switching to [Pinchflat-NGX](https://github.com/TheBadFella/Pinchflat-NGX).
 >
-> I am not responsible for any security vulnerabilities or bugs that may crop up.
+> I am not responsible for any security vulnerabilities or bugs that may crop up. Images are released for the latest commits.
+>
+> The Wiki is down. When the head repo was pulled, the original Wiki and all copies got taken with it. You can refer to [Pinchflat's original Wiki](https://github.com/kieraneglin/pinchflat/wiki) for most of the information. The original links are still in the README if I get around to creating the new Wiki.
 >
 > Feel free to fork this project as I want to see this evolve.
 
@@ -12,7 +14,7 @@
 >
 > Review the options below and carefully choose your own adventure.
 >
-> This is a GhostMaintainer's archive of the community-maintained fork of [kieraneglin/pinchflat](https://github.com/kieraneglin/pinchflat). The original project is not actively maintained; this fork exists to continue development and apply community contributions. See [Migrating from kieraneglin/pinchflat](#migrating-from-kieraneglinpinchflat). PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+> The original project ([kieraneglin/pinchflat](https://github.com/kieraneglin/pinchflat)) was not actively maintained; this fork exists to continue development and apply community contributions. See [Migrating from kieraneglin/pinchflat](#migrating-from-kieraneglinpinchflat). PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 <p align="center">
   <img
