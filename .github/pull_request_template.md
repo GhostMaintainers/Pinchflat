@@ -1,4 +1,6 @@
-**PLEASE NOTE:** Only critical issues will be addressed in this fork. For new features or minor issues, please consider switching to [Tubeless](https://github.com/CommunityMaintained/tubeless). See [Pinchflat vs. Tubeless](https://github.com/CommunityMaintained/pinchflat/blob/master/priv/static/images/pinchflat-vs-tubeless.png) for more details.
+**PLEASE NOTE:**
+Only dependency updates and security fixes will be addressed in this fork. I am not interested in touching Pinchflat's codebase. For new features, bug fixes, and/or minor issues, please consider switching to [Pinchflat-NGX](https://github.com/TheBadFella/Pinchflat-NGX).
+
 
 ## What's new?
 
